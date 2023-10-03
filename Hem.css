@@ -1,3 +1,4 @@
+/* Allmän style för elementen i body. */
 body{
     
     font-size:17px;
@@ -6,6 +7,7 @@ body{
     
   }
   
+  /* Stylar bakgrundsbilden. */
   #showcase{
     background-image:url("bon-vivant-qom5MPOER-I-unsplash.jpg");
     background-size:cover;
@@ -17,16 +19,22 @@ body{
     align-items:center;
     text-align:center;
     padding:0 20px;
+    
   }
   
+  /* Stylar h1. */
   #showcase h1{
     font-size:50px;
     line-height:1.2;
+    
   }
   
+  /* Stylar paragraf. */
   #showcase p{
-    font-size:20px;
+    font-size:20px; 
   }
+
+  /* Stylar "läs mer" knappen. */
   #scrollToBottomButton {
     font-size:18px;
     text-decoration:none;
@@ -38,38 +46,54 @@ body{
     cursor: pointer;
     background-color: transparent;
   }
+
+  /* Stylar hoverfunktionen när hovrar över "läs mer" knappen. */
   #scrollToBottomButton:hover {
     background:salmon;
     color:#fff;
 }
   
+/* Stylar första raden med text*/
   #section-a{
     padding:20px;
     background:rgb(41, 41, 41);
     color:#fff;
     text-align:center;
+    
   }
   
+  /* Stylar andra raden med text */
   #section-b{
     padding:20px;
     background:salmon;
     text-align:center;
     color: black;
     text-align:center;
-  }
     
+  }
+
+  /* Stylar texten i c-sektionen */
   #section-c div{
     padding:20px;
     text-align:center;
+    
   }
-  
+  /* Stylar bakgrundsfärg och textfräg för tredje och femte raden med text */
   #section-c .box-1, #section-c .box-3{
     background:rgb(41, 41, 41);
     color:#ffffff;
     
   }
   
+   /* Stylar bakgrundsfärg och textfräg för fjräde raden med text */
   #section-c .box-2{
     background:salmon;
     color:black;
+    
   }
+  @media screen and (max-width:600px) {
+    body {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

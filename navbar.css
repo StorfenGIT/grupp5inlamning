@@ -1,3 +1,4 @@
+/* En allmän style som gäller för alla element */
 *{
     padding: 0;
     margin: 0;
@@ -10,11 +11,15 @@
 body {
     background-color: rgb(226, 213, 185);
 }
+
+/* Stylar navbar med färg, höjd och att den är lika bred som skärmen */
 nav {
     background: rgb(41, 41, 41);
     height: 80px;
     width: 100%;
 }
+
+/* Stylar logotypen i navbar som i det här fallet är "Masaki 喜び" */
 label {
     color: salmon;
     font-size: 35px;
@@ -22,15 +27,21 @@ label {
     padding: 0 100px;
     font-weight: bold;
 }
+
+/* Bestämmer position på knapprana "hem", "meny", "om oss" och "kontakta oss" */
 nav ul {
     float: right;
     margin-right: 20px;
 }
+
+/* Lägger knapprna "hem", "meny", "om oss" och "kontakta oss" på rad i navbar */
 nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
+
+/* Stylar knapparna som finns på navigationsbaren */
 nav ul li a {
     color: whitesmoke;
     font-size: 17px;
@@ -39,10 +50,14 @@ nav ul li a {
     border-radius: 3px;
 
 }
+
+/* Påverkar effekten och färgen när man hovrar över navbar knapparna och bilden */
 a.active,a:hover {
     background:salmon;
     transition: .5s;
 }
+
+/* Förändrar utseendet på hamburgarmenyn */
 .checkbtn {
     font-size: 30px;
     color: whitesmoke;
@@ -57,6 +72,8 @@ a.active,a:hover {
     display: none;
 
 }
+
+/* Justerar logotypen när skärmen inte är bredare än 858 pixlar för att anpassas till telefoner eller surfplattor */
 @media screen and (max-width: 858px) {
     label.logo {
         font-size: 20px;
@@ -87,6 +104,8 @@ a.active,a:hover {
         font-size: 12px;
     }
 }
+
+/* När skärmen inte är bredare än 858 pixlar så kommer en knapparna hem, om mig och kontakt flyttas och hamna under en så kallad hamburgarmeny.  */
 @media  screen and (max-width: 858px) {
     .checkbtn {
         display: block;
