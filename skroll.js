@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollToBottomButton.addEventListener("click", function () {
         window.scrollTo({
             top: document.body.scrollHeight,
-            behavior: "smooth", 
+            
+            // Skapar en smidigt skrolleffekt 
+            behavior: "smooth",  
         });
     });
 });
