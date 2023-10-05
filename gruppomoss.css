@@ -1,0 +1,212 @@
+body{
+    background-image: url(https://lokalizakaya.se/wp-content/uploads/2023/08/IMG_9928-_redigerad__1-1024x1024.webp);
+}
+
+img{
+    background-color: black;
+    border: double;
+    
+}
+
+h1{
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: salmon;
+    background-color: gray;
+}
+
+.grid1{
+    grid-template-columns: auto auto ;
+    display: grid;
+   
+}
+
+.grid2{
+    grid-template-columns: auto auto ;
+    display: grid;
+   
+}
+
+.grid3{
+    grid-template-columns: auto auto ;
+    display: grid;
+}
+
+.grid3{
+    grid-template-columns: auto auto ;
+    display: grid;
+}
+
+.grid4{
+    grid-template-columns: auto auto ;
+    display: grid;
+}
+
+.grid5{
+    grid-template-columns: auto auto;
+    display: grid;
+}
+
+p{
+ background-color: black;
+ color: white;
+ position: static;
+ margin-right: auto;
+ display: flex;
+ text-align: center;
+ background-size: cover;
+ background-position: left;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+
+}
+body {
+    background-color: rgb(226, 213, 185);
+}
+nav {
+    background: rgb(41, 41, 41);
+    height: 80px;
+    width: 100%;
+}
+label {
+    color: salmon;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: whitesmoke;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+a.active,a:hover {
+    background:salmon;
+    transition: .5s;
+}
+.cappas {
+border-radius: 25vh;
+
+}
+
+.johan{
+    border-radius: 25vh;
+
+}
+
+.sharre{
+    border-radius: 25vh;
+}
+
+.keleftio{
+    border-radius: 25vh;
+}
+
+.johannes{
+    border-radius: 25vh;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: whitesmoke;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.mapen{
+    
+    width: 50%;
+    height: 100px;
+    margin: 10px auto; /* Center horizontally */
+    
+}
+#check {
+    display: none;
+     }
+    @media screen and (max-width: 858px) {
+        label.logo {
+            font-size: 20px;
+            padding-left: 30px;
+            display: block;
+        }
+        nav ul li a {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        label.logo {
+            font-size: 15px;
+            padding-left: 20px;
+            display: block;
+        }
+        nav ul li a {
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        label.logo {
+            font-size: 13px;
+            padding-left: 20px;
+            display: block;
+        }
+        nav ul li a {
+            font-size: 12px;
+        }
+    }
+    @media  screen and (max-width: 858px) {
+        .checkbtn {
+            display: block;
+        }
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgb(61, 61, 61);
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+    
+        }
+        nav ul li {
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+        nav ul li a {
+            font-size: 20px;
+        
+        }
+        a:hover,a.active {
+            color: whitesmoke;
+        }
+        #check:checked ~ ul {
+            left: 0;
+    
+        }
+    } 
