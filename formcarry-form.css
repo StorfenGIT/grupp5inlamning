@@ -124,6 +124,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    /* Position under menu */
+    z-index: -1;
   }
   
   *{
