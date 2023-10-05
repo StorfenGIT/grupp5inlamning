@@ -19,13 +19,14 @@ nav {
     width: 100%;
 }
 
-/* Stylar logotypen i navbar som i det här fallet är "Masaki 喜び" */
+/* Stylar logotypen i navbar som i det här fallet är loggan "Masaki 喜び" */
 label {
     color: salmon;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    
 }
 
 /* Bestämmer position på knapprana "hem", "meny", "om oss" och "kontakta oss" */
