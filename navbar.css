@@ -104,6 +104,16 @@ a.active,a:hover {
         font-size: 12px;
     }
 }
+@media screen and (max-width: 280px) {
+    label.logo {
+        font-size: 8px;
+        padding-left: 9px;
+        display: block;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+}
 
 /* När skärmen inte är bredare än 858 pixlar så kommer en knapparna hem, om mig och kontakt flyttas och hamna under en så kallad hamburgarmeny.  */
 @media  screen and (max-width: 858px) {
@@ -138,5 +148,13 @@ a.active,a:hover {
 
     }
 }
+@media  screen and (max-width: 280px) {
+    .checkbtn {
+        display: block;
+        margin-right: 1px;
+        
+    }
+}
+
 
 
